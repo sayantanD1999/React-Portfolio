@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Education from "./Components/Education";
+import Skills from "./Components/Skills";
+import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
+import Big_navbar from "./Components/Big_navbar";
+import Side_navbar from "./Components/Side_navbar";
+import Top_btn from "./Components/Top_btn";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <Side_navbar />
+      <Big_navbar />
+
+      <div className="container">
+        <Home />
+        <About />
+        <Education />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
+      <Top_btn id="top_btn" />
+      <center>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Designed and built by
+          <span class="highlight"> Sayantan Dutta &copy; </span>{" "}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </center>
     </div>
   );
 }

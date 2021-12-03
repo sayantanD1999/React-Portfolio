@@ -1,13 +1,245 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  
+  background-color: #fefbf3;
+  overflow-x: hidden;
+  color: #00c1d4;
+  font-family: "Roboto", sans-serif;
+}
+body::before {
+  content: " ";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #f8f8f8;
+  clip-path: circle(60% at 50% 100%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Dosis", sans-serif;
+  color: #00c1d4;
+}
+
+a {
+  text-decoration: none !important;
+  background: transparent !important;
+}
+
+.navbar {
+  height: 80px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center !important;
+  text-align: center;
+  box-shadow:#000954 0px 10px 5px -12px;
+}
+
+.row {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.column {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-md-4 {
+  text-align: center;
+}
+
+.project_holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: circle-in-out;
+  animation-duration: 1.5s;
+}
+
+@keyframes circle-in-out {
+  from {
+    clip-path: circle(0% at 50% 50%);
+  }
+  to {
+    clip-path: circle(50% at 50% 50%);
+  }
+}
+
+.highlight {
+  color: #1687a7;
+}
+
+#img {
+  height: 100%;
+  width: 65%;
+  border-radius: 50%;
+}
+.header {
+  font-size: 80px;
+  color: #0f2c67;
+}
+.box {
+  font-size: x-large;
+}
+
+.Card {
+  border-radius: 15px;
+  border: 1px solid rgb(211, 211, 211);
+  height: 400px;
+  width: 270px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  padding: 15px;
+  transition: 0.4s;
+  transition-timing-function: scale ease;
+}
+
+.Card:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 5px rgb(202, 202, 202);
+}
+
+.img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.cntbtn {
+  width: 120px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #00c1d4;
+  border-radius: 50px;
+}
+.cntbtn:hover {
+  transition: 0.3s;
+  background-color: #0f2c67;
+}
+
+.cntbtn a:hover {
+  transition: 0.3s;
+  color: #fff;
+}
+.cntbtn > a {
+  color: #fff;
+}
+
+.edu > h2 {
+  color: #0f2c67;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.menu {
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.cross {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 80px;
+  font-weight: bolder;
+  color: rgb(226, 226, 226);
+  cursor: pointer;
+}
+
+.links {
+  font-size: 60px;
+}
+
+.side-menu {
+  display: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+#myBtn{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 1;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(221, 221, 221);
+  color: rgb(3, 12, 48);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 880px) {
+  .col-sm-6,
+  .col-md-6 {
+    min-height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .column{
+    margin-top: 60px !important;
+  }
+
+  .navbar {
+    display: none !important;
+  }
+
+  .side-menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #00c1d4;
+  }
 }
