@@ -6,6 +6,7 @@ import {
   DiReact,
   DiBootstrap,
   DiMysql,
+  DiNodejsSmall,
 } from "react-icons/di";
 import { FiFigma } from "react-icons/fi";
 
@@ -42,24 +43,23 @@ function Skills() {
                   <DiHtml5 /> HTML/HTML5
                 </h2>
                 <h2 data-aos="fade-up" data-aos-duration="2000">
-                  <FiFigma /> Figma
+                  <DiCss3 /> CSS2/CSS3
                 </h2>
               </div>
             </div>
             <div className="col-md-6 column">
               <div className="box">
-                
                 <h2 data-aos="fade-up" data-aos-duration="2000">
-                <DiCss3 />  CSS2/CSS3
-                </h2>
-                <h2 data-aos="fade-up" data-aos-duration="2000">
-                <DiJavascript1 />  JavaScript
-                </h2>
-                <h2 data-aos="fade-up" data-aos-duration="2000">
-                  <DiBootstrap /> Bootstrap
+                  <DiJavascript1 /> JavaScript
                 </h2>
                 <h2 data-aos="fade-up" data-aos-duration="2000">
                   <DiReact /> React
+                </h2>
+                <h2 data-aos="fade-up" data-aos-duration="2000">
+                  <DiNodejsSmall /> NodeJs
+                </h2>
+                <h2 data-aos="fade-up" data-aos-duration="2000">
+                  <DiBootstrap /> Bootstrap
                 </h2>
               </div>
             </div>

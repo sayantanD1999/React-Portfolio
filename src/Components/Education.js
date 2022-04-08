@@ -58,7 +58,7 @@ function Education() {
                   </h3>
 
                   <h3 data-aos="fade-up" data-aos-duration="2000">
-                    71%
+                    72%
                   </h3>
 
                   <h3 data-aos="fade-up" data-aos-duration="2000">
@@ -80,10 +80,10 @@ function Education() {
                     MAKAUT
                   </h3>
                   <h3 data-aos="fade-up" data-aos-duration="2000">
-                    8.49
+                    8.70
                   </h3>{" "}
                   <p data-aos="fade-up" data-aos-duration="2000">
-                    (till 6th sem)
+                    (till 7th sem)
                   </p>
                   <h3 data-aos="fade-up" data-aos-duration="2000">
                     2022
