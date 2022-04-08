@@ -184,13 +184,13 @@ function Projects() {
                 </div>
                 <div className="card-body">
                   <h4 className="card-title" data-text="Customized Form">
-                    React Meme Web App (Mobile)
+                    React Meme Creator Web App (Mobile)
                   </h4>
                   <p className="card-text">
                     Developed a react meme builder web app.
                   </p>
                   <button className="cntbtn">
-                    <a href="https://sayantand1999.github.io/Customized-Form/">
+                    <a href="https://sayantand1999.github.io/React-Meme-Creator/">
                       View Project
                     </a>
                   </button>
