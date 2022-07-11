@@ -37,7 +37,7 @@ function Skills() {
 
                 <h2 data-aos="fade-up" data-aos-duration="2000">
                   {" "}
-                  <DiMysql /> MySQL/SQL
+                  <DiMysql /> MySQL/SQL & MongoDB
                 </h2>
                 <h2 data-aos="fade-up" data-aos-duration="2000">
                   <DiHtml5 /> HTML/HTML5

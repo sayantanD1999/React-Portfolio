@@ -8,6 +8,7 @@ import resume from "./images/resume.png"
 import food from "./images/food.jpg"
 import bp from "./images/budget-planner.png"
 import ts from "./images/typing_speed.jpg"
+import ru from "./images/ru.png"
 
 function Projects() {
   return (
@@ -50,27 +51,26 @@ function Projects() {
                 <div className="card_img_holder">
                   <img
                     className="Card-img-top img"
-                    src={news}
+                    src={ru}
                     alt="Card image"
                   />
                 </div>
                 <div className="card-body">
-                  <h4 className="card-title" data-text="Official Website">
-                    React News App
+                  <h4 className="card-title" data-text="Email Sender">
+                    Recipe Upload
                   </h4>
                   <p className="card-text">
-                    Developed a <strong>News Web App</strong> using React, where
-                    all updated newses can be obtained categorically and can
-                    also be shared.
+                    Developed a recipe uploader and viewer using React,Nodejs and MongoDB.
                   </p>
                   <button className="cntbtn">
-                    <a href="https://sayantand1999.github.io/React-News/">
+                    <a href="https://gentle-stardust-9ce3cc.netlify.app/">
                       View Project
                     </a>
                   </button>
                 </div>
               </div>
             </div>
+
             <div className="col-md-4 project_holder">
               <div className="Card" data-aos="fade-up" data-aos-duration="2000">
                 <div className="card_img_holder">
@@ -98,8 +98,8 @@ function Projects() {
               </div>
             </div>
           </div>
-                    <div className="row">
-            <div className="col-md-4 project_holder">
+          <div className="row">
+            {/* <div className="col-md-4 project_holder">
               <div className="Card" data-aos="fade-up" data-aos-duration="2000">
                 <div className="card_img_holder">
                   <img
@@ -117,6 +117,32 @@ function Projects() {
                   </p>
                   <button className="cntbtn">
                     <a href="https://sayantand1999.github.io/Budget--Planner/">
+                      View Project
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div> */}
+            <div className="col-md-4 project_holder">
+              <div className="Card" data-aos="fade-up" data-aos-duration="2000">
+                <div className="card_img_holder">
+                  <img
+                    className="Card-img-top img"
+                    src={news}
+                    alt="Card image"
+                  />
+                </div>
+                <div className="card-body">
+                  <h4 className="card-title" data-text="Official Website">
+                    React News App
+                  </h4>
+                  <p className="card-text">
+                    Developed a <strong>News Web App</strong> using React, where
+                    all updated newses can be obtained categorically and can
+                    also be shared.
+                  </p>
+                  <button className="cntbtn">
+                    <a href="https://sayantand1999.github.io/React-News/">
                       View Project
                     </a>
                   </button>
@@ -179,7 +205,7 @@ function Projects() {
                     className="Card-img-top"
                     src={reactmeme}
                     alt="Card image"
-                    style={{width:"45%"}}
+                    style={{ width: "45%" }}
                   />
                 </div>
                 <div className="card-body">
