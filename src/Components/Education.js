@@ -80,7 +80,7 @@ function Education() {
                     MAKAUT
                   </h3>
                   <h3 data-aos="fade-up" data-aos-duration="2000">
-                    8.75,80%
+                    DGPA - 8.75 , (80%)
                   </h3>{" "}
                   <h3 data-aos="fade-up" data-aos-duration="2000">
                     2022
