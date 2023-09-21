@@ -8,6 +8,11 @@ import {
   DiMysql,
   DiNodejsSmall,
 } from "react-icons/di";
+import {
+SiNextdotjs
+} from "react-icons/si";
+
+
 import { FiFigma } from "react-icons/fi";
 
 import React from "react";
@@ -39,6 +44,9 @@ function Skills() {
                   {" "}
                   <DiMysql /> MySQL/SQL & MongoDB
                 </h2>
+                  <h2 data-aos="fade-up" data-aos-duration="2000">
+                  <FiFigma /> Figma
+                </h2>
                 <h2 data-aos="fade-up" data-aos-duration="2000">
                   <DiHtml5 /> HTML/HTML5
                 </h2>
@@ -51,6 +59,9 @@ function Skills() {
               <div className="box">
                 <h2 data-aos="fade-up" data-aos-duration="2000">
                   <DiJavascript1 /> JavaScript
+                </h2>
+                <h2 data-aos="fade-up" data-aos-duration="2000">
+                  <SiNextdotjs /> NextJs
                 </h2>
                 <h2 data-aos="fade-up" data-aos-duration="2000">
                   <DiReact /> React
